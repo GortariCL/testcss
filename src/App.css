@@ -1,56 +1,54 @@
-
 .app {
-	background-color: black;
-	height: 100vh;
-	width: 100vw;
-	display: flex;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
 }
 
 nav {
-	height: 8vh;
-	background-color: black;
-	width: 100vw;
-	position: absolute;
-	top: 0;
+  height: 8vh;
+  background-color: black;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+	z-index: 8000;
 }
 
 .container {
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
-	width: 100%;
-	margin-top:8vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  margin-top: 8vh;
 }
 
 .container-1 {
-	background-color: red;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	max-height: 100%;
-	max-width: 100%;
+  display: flex;
+  background-color: rebeccapurple;
+  height: 33.33vh;
 }
 
-
-
-.container-1__img {
-	background-color: rgb(137, 27, 147);
-	display: flex;
+.container-1__1 {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
 }
 
-.container-1__img img {
-	height: 100%;
+.elipse-img {
+	z-index: 22;
+}
+
+.container-1__2 {
+  background-color: yellow;
+  width: 50%;
 }
 
 .container-2 {
-	background-color: green;
+  background-color: green;
 }
 
 .container-3 {
-	background-color: pink;
+  background-color: pink;
 }
-
-
-
-
-
-
-
