@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Elipse from "./assets/a.svg";
+import Conjunto from "./assets/b.svg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <nav>el nav </nav>
+      <div className="container">
+        <div className="container-1">
+          <div className="container-1__img">
+            <img src={Elipse} alt="pepe" />
+          </div>
+
+          <div className="container-1__text">
+            <h6>Invita a quien tu quieras</h6>
+            <h3>Crea tus eventos</h3>
+            <p>Organiza y diseña sadfojiasfdiojdsaf </p>
+          </div>
+        </div>
+
+        <div className="container-2">2</div>
+        <div className="container-3">3</div>
+      </div>
     </div>
   );
 }
